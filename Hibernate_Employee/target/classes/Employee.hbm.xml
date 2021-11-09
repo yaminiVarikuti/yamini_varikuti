@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+<class name="com.demo.pojo.Employee" table="employeehiber">
+<id name ="id" type="int" column ="id">
+<generator class="native"></generator>
+</id>
+<property name ="employeename" column ="employeename" type="string"></property>
+<property name ="employeeage" column ="employeeage" type="string"></property>
+   
+</class>
+</hibernate-mapping>
